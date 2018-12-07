@@ -1,0 +1,173 @@
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    background-attachment: fixed;
+}
+#header li a,
+#header li,
+#header{
+    margin:0px;
+    border:0px;
+    margin:0px;
+    border-radius: 0px;
+}
+
+#header li{
+    width: 10%;
+    text-align: center;
+    background: rgba(0,0,0,0);
+    color: white;
+    line-height: 1em;
+    transition: background-color 0.5s ease;
+}
+
+#header li a{
+    background: rgba(0,0,0,0);
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#header li.active a{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+}
+#header li:hover.active a{
+    background: rgba(0,0,0,0.5);
+    transition: background-color 0.5s ease;
+}
+
+#header li:hover a{
+    background: rgba(0,0,0,0.2);
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+
+#header_menu{
+    position: relative;
+    left: 60%;
+    margin-top: 5px;
+}
+
+.heading{ 
+    padding: 10px;
+    font-size: 2.5em;
+}
+
+.main_block{
+    width: 70%; text-align: justify;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    color: white;
+}
+
+
+#deals .tab-content{
+    margin: 20px 50px;
+}
+#deals li{
+    width: 100px;
+    margin: 2px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+#deals a{
+    color:white;
+    background: rgba(0,0,0,0.3);
+    transition: background-color 0.5s ease;
+}
+
+
+
+#deals li:hover a{
+    color: white;
+    background: black;
+    transition: background-color 0.5s ease;
+}
+#deals li:hover.active a{
+    color:white;
+    background: black;
+    transition: background-color 0.5s ease;
+}
+#deals li.active a{
+    font-weight: 600;
+    background: black;
+    transition: font-weight 0.5s ease;
+    /*border-bottom: 1px solid white;*/
+}
+
+#Home ul li ul{
+    display: none;
+    visibility: hidden;
+}
+
+#menu{
+    /*width: 50%;*/
+}
+
+ul#menu > li{
+    display: inline-block;
+    cursor: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    /*width: 10%;*/
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-bottom: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#menu li:hover{
+    background: black;
+    color: white;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+#menu a{
+    text-decoration: none;
+    cursor: auto;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#Home ul li:hover > ul li:hover{
+    background: rgba(255,255,255,0.2);
+    font-weight: 600;
+}
+#Home ul li:hover > ul li{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin:5px 10px;
+    margin-left: -30px;
+    background: black;
+    width: 60px
+}
+#Home ul li:hover > ul{
+    visibility: visible;
+    display: block;
+    transition: display 1s ease;
+    transition: visibility 1s ease;
+    position: absolute;
+    background: rgba(0,0,0, 0.6);
+    margin-top: 10px;
+    margin-left: -10px;
+    /*padding: 20px;*/
+    list-style: none;
+
+}

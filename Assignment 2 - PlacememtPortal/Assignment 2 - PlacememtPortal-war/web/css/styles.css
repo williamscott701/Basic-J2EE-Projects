@@ -1,0 +1,66 @@
+.ws-hide{
+    display: none;   
+}
+
+#loginbody  form, #body{
+    width: 450px;
+    margin: 0px auto;
+    padding: 0px;
+}
+#loginbody  form{
+    background: rgba(0,0,0,0.4);
+    padding: 7px;
+    margin-top: 40px;
+    border-radius: 2px;
+    color: white;
+    border:1px white solid;
+    box-shadow: 0 0 5px black;
+    transition: box-shadow 1s ease;
+}
+
+#loginbody  form:hover{
+    box-shadow: 0 0 15px black;    
+}
+
+#loginbody{
+    margin-top: 50px;
+}
+
+#loginbody .heading{
+    font-size: 2em;
+    margin:0 auto;
+}
+
+#loginbody ul{
+    margin-left: 70px
+}
+
+#loginbody ul li{
+    display: inline;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+    transition: background 0.3s ease;
+    margin-left: 20px;
+    border-radius: 2px;
+    color: white;
+}
+
+#loginbody ul li:hover{
+    background: rgba(0,0,255,0.2);
+    color: black;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    line-height: 1.2em;
+    background: #357ebd;
+    color: whitesmoke;
+    font-size: 1.2em;
+    right: 0px;
+    left: 0px;
+    letter-spacing: 1.5px;
+    padding-top: 12px;
+}
